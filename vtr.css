@@ -1,0 +1,79 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Styles for header */
+header {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+/* Styles for navigation menu */
+nav {
+	background-color: #ededed;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* Styles for main content */
+main {
+	padding: 20px;
+}
+
+section {
+	margin: 20px 0;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+p {
+	line-height: 1.5;
+}
+
+/* Styles for footer */
+footer {
+	background-color: #ededed;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+}
+```
